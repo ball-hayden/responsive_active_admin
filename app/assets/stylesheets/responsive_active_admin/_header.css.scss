@@ -28,6 +28,13 @@
 
   #utility_nav {
     @include responsive {
+      display: block;
+
+      margin-top:  5px;
+      padding-top: 5px;
+
+      border-top: #444 1px solid;
+
       text-align: left;
     }
 
