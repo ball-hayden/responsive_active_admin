@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    responsive_active_admin (0.0.1)
+    responsive_active_admin (0.0.2)
       activeadmin
 
 GEM
@@ -67,9 +67,9 @@ GEM
       activesupport (>= 3.2, < 5)
     hike (1.2.3)
     i18n (0.6.9)
-    inherited_resources (1.4.1)
+    inherited_resources (1.5.0)
       has_scope (~> 0.6.0.rc)
-      responders (~> 1.0.0.rc)
+      responders (~> 1.0)
     journey (1.0.4)
     jquery-rails (2.3.0)
       railties (>= 3.0, < 5.0)
@@ -117,7 +117,7 @@ GEM
     rake (10.3.2)
     rdoc (3.12.2)
       json (~> 1.4)
-    responders (1.0.0)
+    responders (1.1.0)
       railties (>= 3.2, < 5)
     sass (3.3.8)
     sprockets (2.2.2)
