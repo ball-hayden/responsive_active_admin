@@ -8,6 +8,12 @@
     padding: 10px 22px;
   }
 
+  h1 {
+    @include responsive {
+      padding-left: 10px;
+    }
+  }
+
   ul.tabs {
     @include responsive {
       display: block;
