@@ -1,0 +1,7 @@
+@include responsive {
+ .column {
+    float: none;
+    // Since columns are sized on the element, we have to be forceful.
+    width: 100% !important;
+  }
+}

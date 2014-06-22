@@ -1,0 +1,49 @@
+form {
+  fieldset {
+    ol > li {
+      label {
+        @include responsive {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  /* Nested Fieldsets and Legends */
+  fieldset > ol > li {
+    fieldset {
+      legend {
+        @include responsive {
+          position: static;
+          width:    100%;
+        }
+
+        &.label label {
+          @include responsive {
+            position: static;
+            float:    none;
+          }
+        }
+      }
+
+      &:not(.has_many_fields) ol {
+        @include responsive {
+          width: 80%;
+        }
+      }
+    }
+  }
+
+  /* Text Fields */
+  input[type=text], input[type=password], input[type=email], input[type=number], input[type=url], input[type=tel], textarea {
+    @include responsive {
+      width: calc(100% - #{$text-input-total-padding});
+    }
+  }
+
+  select {
+    @include responsive {
+      width: 100%;
+    }
+  }
+}

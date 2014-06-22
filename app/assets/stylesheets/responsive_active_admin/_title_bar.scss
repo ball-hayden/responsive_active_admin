@@ -1,0 +1,14 @@
+#title_bar {
+  #titlebar_left, #titlebar_right {
+    @include responsive {
+      display: block;
+    }
+  }
+
+  #titlebar_right {
+    @include responsive {
+      text-align: left;
+      margin-top: 10px;
+    }
+  }
+}

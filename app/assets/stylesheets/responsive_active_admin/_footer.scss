@@ -1,0 +1,6 @@
+// Index Footer (Under Table)
+#index_footer {
+  @include responsive {
+    text-align: left;
+  }
+}

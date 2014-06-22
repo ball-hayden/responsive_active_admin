@@ -1,0 +1,11 @@
+.pagination_information {
+  @include responsive {
+    float: none;
+  }
+}
+
+.download_links {
+  @include responsive {
+    float: none;
+  }
+}

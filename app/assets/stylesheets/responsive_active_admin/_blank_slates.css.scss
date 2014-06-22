@@ -1,0 +1,5 @@
+.with_sidebar .blank_slate_container .blank_slate {
+  @include responsive {
+    margin-top: 20px;
+  }
+}
