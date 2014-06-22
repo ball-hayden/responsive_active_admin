@@ -1,8 +1,10 @@
-= Responsive ActiveAdmin
+Responsive ActiveAdmin
+======================
 
 Responsive design for ActiveAdmin.
 
-== Installation
+Installation
+------------
 
 In `app/assets/stylesheets/active_admin.css.scss`
 
