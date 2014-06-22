@@ -1,6 +1,7 @@
 #title_bar {
-  #titlebar_left, #titlebar_right {
+  #titlebar_left, #titlebar_right, #page_title {
     @include responsive {
+      height:  auto;
       display: block;
     }
   }
