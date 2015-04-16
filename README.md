@@ -3,6 +3,8 @@ Responsive ActiveAdmin
 
 Responsive design for ActiveAdmin.
 
+Released under the MIT-LICENSE.
+
 Installation
 ------------
 
@@ -18,4 +20,22 @@ In `app/assets/stylesheets/active_admin.css.scss`
   @import "responsive_active_admin"
 ```
 
-Released under the MIT-LICENSE.
+Screenshots
+-----------
+
+The following were taken on my Nexus 5, of the [SparkSeat](https://www.sparkseat.com) activeadmin interface.
+
+The login page (slightly customised to add the logo).
+![login](screenshots/login.png)
+
+Menu:
+![menu](screenshots/menu.png)
+
+Dashboard / Show Page
+![dashboard](screenshots/dashboard.png)
+
+Index Page
+![index](screenshots/index.png)
+
+Form
+![form](screenshots/form.png)
