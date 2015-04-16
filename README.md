@@ -25,17 +25,17 @@ Screenshots
 
 The following were taken on my Nexus 5, of the [SparkSeat](https://www.sparkseat.com) activeadmin interface.
 
-The login page (slightly customised to add the logo).
+The login page:
 ![login](screenshots/login.png)
 
 Menu:
 ![menu](screenshots/menu.png)
 
-Dashboard / Show Page
+Dashboard / Show Page:
 ![dashboard](screenshots/dashboard.png)
 
-Index Page
+Index Page:
 ![index](screenshots/index.png)
 
-Form
+Form:
 ![form](screenshots/form.png)
