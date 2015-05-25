@@ -28,7 +28,7 @@ form {
 
       &:not(.has_many_fields) ol {
         @include responsive {
-          width: 80%;
+          padding-left: 0;
         }
       }
     }
