@@ -20,6 +20,15 @@ In `app/assets/stylesheets/active_admin.css.scss`
   @import "responsive_active_admin"
 ```
 
+Contributing
+------------
+
+1) Fork
+2) New Branch
+3) Code
+4) Open PR. As this library is only for style changes, please include screenshots (I'd rather not have to clone your repo)
+5) Rejoice.
+
 Screenshots
 -----------
 
